@@ -8,7 +8,13 @@ It logs your logs, warning, errors, and all other text messages to the console a
 Because I'm awesome. And also because the name simple-logger which I had originally thought of was already taken. But mostly the awesome thing.
 
 ### Basic usage
-Simply require the logger like this:
+Install the module using npm:
+
+```
+npm install awesome-logger
+```
+
+Require the logger like this:
 
 ```CoffeeScript
 log = require('awesome-logger')()
