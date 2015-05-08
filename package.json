@@ -1,0 +1,20 @@
+{
+  "name": "awesome-logger",
+  "version": "1.0.0",
+  "description": "A simple logger that does what it needs to do",
+  "main": "awesome-logger.js",
+  "dependencies": {
+    "colors": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woubuc/awesome-logger"
+  },
+  "keywords": [
+    "log",
+    "logger"
+  ],
+  "author": "woubuc <wou.buc@gmail.com> (https://github.com/woubuc)",
+  "license": "MIT",
+  "homepage": "https://github.com/woubuc/awesome-logger"
+}
