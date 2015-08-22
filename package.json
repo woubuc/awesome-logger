@@ -1,6 +1,6 @@
 {
   "name": "awesome-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple logger that does what it needs to do",
   "main": "awesome-logger.js",
   "dependencies": {
