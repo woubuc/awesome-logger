@@ -16,13 +16,13 @@ npm install awesome-logger
 
 Require the logger like this:
 
-```CoffeeScript
+```Javascript
 log = require('awesome-logger')()
 ```
 
 Then use it in your code like this:
-```CoffeeScript
-log 'This is a notice'
+```Javascript
+log('This is a notice')
 ```
 
 ### Log options
@@ -36,12 +36,12 @@ The second parameter is a number indicating the log level.
 - 3: Non-critical error (prints in red)
 - 4: Critical error (prints in bold red on white)
 
-```CoffeeScript
-log 'Hello world' # prints: Hello world
-log 'Hello world', 1 # prints (green text): Hello world
-log 'Hello world', 2 # prints (orange text): [WARN] Hello world
-log 'Hello world', 3 # prints (red text): [ERROR] Hello world
-log 'Hello world', 4 # prints (bold red text): [CRITICAL] Hello world
+```Javascript
+log('Hello world') // prints: Hello world
+log('Hello world', 1) // prints (green text): Hello world
+log('Hello world', 2) // prints (orange text): [WARN] Hello world
+log('Hello world', 3) // prints (red text): [ERROR] Hello world
+log('Hello world', 4) // prints (bold red text): [CRITICAL] Hello world
 ```
 
 These error numbers aren't just for display purposes, they also define if the log should be logged to a file. By default, log levels 2 and higher (warnings and errors) get logged to a file. But you can configure this.
@@ -51,7 +51,7 @@ Also, log levels 2 and up add prefixes [WARN], [ERROR] and [CRITICAL] to the log
 ### Configuration
 To create the logger, call a function. Leaving all parameters empty will use the default settings, but you can of course configure the logger to do what you want:
 
-```CoffeeScript
+```Javascript
 require('awesome-logger')(report_level, directory, disable_colours)
 ```
 
